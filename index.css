@@ -5,8 +5,8 @@
 
 nav {
     display: flex;
-    /* background-color: #131313; */
-    background-color: rgba(0, 0, 0, .8);
+    background-color: #131313;
+    /* background-color: rgba(0, 0, 0, .8); */
     justify-content: space-evenly;
     align-items: center;
     height: 5vh;
@@ -64,10 +64,35 @@ nav a {
 }
 
 .links a {
+    font-family: 'SF Pro Display';
     text-decoration: none;
     padding: 30px;
     color: aqua;
 }
+
+/* Black UI */
+.Black_Heading {
+    color: black;
+    font-family: 'SF Pro Display';
+    font-weight: bolder;
+    font-size: 8vh;
+}
+
+.Black_Title {
+    color: black;
+    font-family: 'SF Pro Display';
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+.Black_Prize {
+    color: black;
+    font-family: 'SF Pro Display';
+    font-weight: lighter;
+    font-size: 1.7vh;
+}
+
+/* ******************************** */
 
 /* iPhone-11Pro */
 
@@ -89,21 +114,29 @@ nav a {
     background-position: center;
     /* color: black; */
 }
-.HeadingB {
-    color: black;
-    font-family: 'SF Pro Display';
-    font-weight: bolder;
-    font-size: 8vh;
+
+/* Watch */
+.watch {
+    background: url('images/watch/watch_medium.jpg');
+    height: 72vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* color: black; */
 }
-.TitleB {
-    color: black;
+
+.Watch_Series {
+    color: red;
     font-family: 'SF Pro Display';
     font-weight: bold;
     line-height: 1.8;
 }
-.PrizeB {
-    color:black;
+
+.Black_Info {
+
+    color: black;
     font-family: 'SF Pro Display';
-    font-weight: lighter;
-    font-size: 1.7vh;
+    /* font-weight: lighter; */
+    font-size: 2vh;
+
 }
