@@ -27,9 +27,14 @@ nav img {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #d5d6d1;
     font-size: smaller;
     font-family: 'SF Pro Display', 'SF Pro Text', sans-serif;
+    font-weight: 300;
+}
+
+nav a:hover {
+    color: white;
 }
 
 .info {
@@ -55,19 +60,21 @@ nav a {
     font-family: 'SF Pro Display';
     font-weight: lighter;
     font-size: 1.7vh;
+    line-height: 1.5;
 }
 
 .links {
     text-align: center;
-    padding-top: 1.2%;
+    padding-top: 1%;
     /* color:cyan; */
 }
 
 .links a {
     font-family: 'SF Pro Display';
+    font-weight: 500;
     text-decoration: none;
-    padding: 30px;
-    color: aqua;
+    padding: 5px;
+    color: #2fa6ff;
 }
 
 /* Black UI */
@@ -92,37 +99,52 @@ nav a {
     font-size: 1.7vh;
 }
 
+.Next_Arrow {
+    height: 3vh;
+    position: relative;
+    top: 7px;
+    /* padding-top: 20px; */
+}
+
 /* ******************************** */
 
 /* iPhone-11Pro */
 
 .iphone-11Pro {
     /* background-color: aqua; */
-    background: url('images/iphone-11-pro/iphone_11_pro_large.jpg');
+    background: url('images/iphone-11-pro/iphone_11_pro_large.jpg')no-repeat center;
     height: 72vh;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 /* iPhone 11 */
 .iphone-11 {
-    background: url('images/iphone-11/iphone_11_large.jpg');
+    background: url('images/iphone-11/iphone_11_large.jpg')no-repeat center;
     height: 72vh;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* color: black; */
 }
 
 /* Watch */
+#Apple_Black {
+    height: 6vh;
+    position: relative;
+    top: 50px;
+    right: 100px;
+    /* padding-left: 7px; */
+}
+
+.Watch_Black_Heading {
+    color: black;
+    font-family: 'SF Pro Display';
+    font-weight: bolder;
+    font-size: 6vh;
+    padding-left: 30px;
+}
+
 .watch {
-    background: url('images/watch/watch_medium.jpg');
+    background: url('images/watch/watch_medium.jpg')no-repeat center;
     height: 72vh;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* color: black; */
 }
 
 .Watch_Series {
@@ -130,6 +152,7 @@ nav a {
     font-family: 'SF Pro Display';
     font-weight: bold;
     line-height: 1.8;
+    font-size: 2.5vh;
 }
 
 .Black_Info {
@@ -138,5 +161,104 @@ nav a {
     font-family: 'SF Pro Display';
     /* font-weight: lighter; */
     font-size: 2vh;
+}
+
+/* Product Info */
+.Aimg {
+    height: 600px;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+
+#img_flex {
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Heading_White {
+    position: relative;
+    color: white;
+    font-family: 'SF Pro Text';
+    font-weight: bold;
+    top: 13%;
+    text-align: center;
+}
+
+.Title_White {
+    position: relative;
+    color: white;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    top: 14%;
+    text-align: center;
+}
+
+.Learn {
+    position: relative;
+    bottom: 73%;
+}
+
+.Heading_White_Air {
+    position: relative;
+    color: white;
+    font-family: 'SF Pro Text';
+    font-weight: bold;
+    top: 10%;
+    text-align: center;
+}
+
+/* #f{
+    color: white;
+    size: 5vh;
+} */
+
+/* Responsive Code */
+
+/* Phone */
+
+@media screen and (max-width:700px) {
+
+    /* .info {
+        color: white;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .Heading {
+        font-family: 'SF Pro Display';
+        font-weight: bolder;
+        font-size: 3vh;
+    }
+
+    .Title {
+        font-family: 'SF Pro Display';
+        font-weight: bold;
+        line-height: 1.8;
+        font-size: 1.5vh;
+    }
+
+    .Prize {
+        font-family: 'SF Pro Display';
+        font-weight: lighter;
+        font-size: 80%;
+        line-height: 1.5;
+    }
+
+    .links {
+        text-align: center;
+        padding-top: 1%;
+    }
+
+    .links a {
+        font-family: 'SF Pro Display';
+        font-weight: 500;
+        text-decoration: none;
+        padding: 5px;
+        color: #2fa6ff;
+    } */
+
+    
 
 }
